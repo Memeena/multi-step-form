@@ -1,0 +1,14 @@
+.heading {
+  color: var(--color-marine-blue);
+}
+
+.subHeading {
+  margin-top: 0.9rem;
+  color: var(--color-cool-gray);
+}
+
+@media screen and (max-width: 28.5em) {
+  .heading {
+    font-size: 2.4rem;
+  }
+}

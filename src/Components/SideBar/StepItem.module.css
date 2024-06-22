@@ -1,0 +1,35 @@
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.stepNumber {
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-light-blue);
+  font-size: 1.4rem;
+  height: 3.3rem;
+  width: 3.3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.stepDetails {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 0.5rem;
+}
+
+.stepNo {
+  font-size: 1.2rem;
+  color: var(--color-pastel-blue);
+}
+
+.stepName {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--color-white);
+  letter-spacing: 1px;
+}

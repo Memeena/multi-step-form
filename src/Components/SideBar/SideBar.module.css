@@ -1,0 +1,27 @@
+.sideBar {
+  background-image: url("../../../public/assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 3.2rem 5.5rem 8rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  height: 56.8rem;
+  grid-row: 1/-1;
+  grid-column: 1/2;
+}
+
+@media screen and (max-width: 28.5em) {
+  .sideBar {
+    background-image: url("../../../public/assets/images/bg-sidebar-mobile.svg");
+    flex-direction: row;
+    padding-top: 0;
+    width: 100vw;
+    justify-content: center;
+    height: 17.2rem;
+    gap: 1.6rem;
+    border-radius: 0;
+  }
+}
