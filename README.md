@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/Memeena/multi-step-form-app)
-- Live Site URL: [Live site URL here](https://memeena.github.io/multi-step-form-app/)
+- Solution URL: [Solution URL here](https://github.com/Memeena/multi-step-form)
+- Live Site URL: [Live site URL here](https://memeena.github.io/multi-step-form/)
 
 ## My process
 
