@@ -65,7 +65,7 @@ function reducer(state, action) {
         error: { err: false, msg: "" },
         currStep:
           state.currStep > 1 && state.currStep <= 4
-            ? state.currStep--
+            ? --state.currStep
             : state.currStep,
       };
 
@@ -74,7 +74,7 @@ function reducer(state, action) {
     case "nextStep":
       return {
         ...state,
-        currStep: state.currStep < 4 ? state.currStep++ : state.currStep,
+        currStep: state.currStep < 4 ? ++state.currStep : state.currStep,
         error: state.selectedPlanName ? { err: false, msg: "" } : state.error,
       };
 
@@ -87,7 +87,7 @@ function reducer(state, action) {
     case "confirmStep":
       return {
         ...state,
-        currStep: state.currStep++,
+        currStep: ++state.currStep,
       };
     default:
       throw new Error("Unknown action");
@@ -131,7 +131,6 @@ function App() {
     } else dispatch({ type: "nextStep" });
   }
 
-  console.log("selectedAddons:", selectedAddOns);
   return (
     <div className="app">
       <div className="main">

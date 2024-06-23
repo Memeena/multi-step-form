@@ -5,7 +5,7 @@ export default function ThankYou() {
     <div className={styles.thankyou}>
       <img
         className={styles.img}
-        src={"./multi-step-form/assets/images/icon-thank-you.svg"}
+        src={"./assets/images/icon-thank-you.svg"}
         alt="thank you"
       />
       <h1 className={styles.heading}>Thank You!</h1>

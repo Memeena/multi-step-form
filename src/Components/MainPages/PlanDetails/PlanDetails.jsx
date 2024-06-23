@@ -21,7 +21,7 @@ export default function PlanDetails({ dispatch, plan, selectedPlanName }) {
         {plan.type.map((item) => (
           <PlanDetailsList
             key={item.name}
-            img={`./multi-step-form/assets/images/${item.img}`}
+            img={`./assets/images/${item.img}`}
             // img={imgSrc}
             planName={item.name}
             amount={item.price}
